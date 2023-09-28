@@ -1,0 +1,334 @@
+{
+    "muscleGain": {
+        "Day1": {
+            "WarmUp": "10 minutes warm-up (brisk walking or light jogging)",
+            "weightlifting": "20 minutes of weightlifting focusing on compound exercises",
+            "CircuitTraining": [
+                "Bench press X5 ",
+                "Barbell rows X6",
+                "Squats X10",
+                "Shoulder press X10",
+                "Deadlifts X12"
+            ],
+            "CoolDown": "10 minutes cool-down (stretching)"
+        },
+        "Day2": {
+            "WarmUp": "10 minutes warm-up (jump rope or light jogging)",
+            "CircuitTraining": [
+                "Pull-ups X10",
+                "Dips X10",
+                "Push-ups X15",
+                "Lunges X8"
+            ],
+            "dumbbellsWorkout": [
+                "5 min Bicep curls with dumbbells",
+                "5 min Tricep extensions with dumbbells"
+            ],
+            "CoolDown": "10 minutes cool-down (yoga or stretching)"
+        },
+        "Day3": {
+            "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
+            "weightlifting": "30 minutes of weightlifting focusing on different muscle groups",
+            "legDay": [
+                "Leg press X10",
+                "Lat pulldowns X10",
+                "Leg curls X10",
+                "Incline dumbbell press X15",
+                "Cable flyes X15"
+            ],
+            "CoolDown": "10 minutes cool-down (stretching)"
+        },
+        "Day4": {
+            "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
+            "CircuitTraining": [
+                "Squats with barbell X10",
+                "Overhead press with dumbbells X10",
+                "Bent-over rows with barbell X5",
+                "Lunges with dumbbells X15"
+            ],
+            "coreExercise": [
+                "Planks (3 minutes)",
+                "Russian twists with medicine ball X10"
+            ],
+            "CoolDown": "5 minutes cool-down (yoga or stretching)"
+        },
+        "Day5": {
+            "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
+            "weightlifting": [
+                "Deadlifts X10",
+                "Pull-ups (3minute)",
+                "Bench press(2minute) ",
+                "Barbell rows X10"
+            ],
+            "CoolDown": "10 minutes cool-down (stretching)"
+        },
+        "Day6":
+         {"restDay": "Light recreational activity like swimming or walking"
+        },
+        "Day7": {
+            "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
+            "bodyweight": [
+                "Push-ups X10",
+                "Dips X10",
+                "Chin-ups X10",
+                "Bodyweight squats X15"
+            ],
+            "dumbbellsWorkout": [
+                "Bicep curls with dumbbells",
+                "Tricep extensions with dumbbells"
+            ],
+            "CoolDown": "10 minutes cool-down (yoga or stretching)"
+        },
+        "Day8": {
+            "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
+            "weightlifting": [
+                "Leg press X10",
+                "Lat pulldowns X10",
+                "Leg curls X10",
+                "Incline dumbbell press X5",
+                "Cable flyes X5"
+            ],
+            "CoolDown": "10 minutes cool-down (stretching)"
+        },
+        "Day9": {
+            "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
+            "CircuitTraining": [
+                "Squats with barbell (5 minutes)",
+                "Overhead press with dumbbells (5 minutes)",
+                "Bent-over rows with barbell (5 minutes)",
+                "Lunges with dumbbells (5 minutes)"
+            ],
+            "coreExercise": [
+                "Planks (3 minutes)",
+                "Russian twists with medicine ball (3 minutes)"
+            ],
+            "CoolDown": "5 minutes cool-down (yoga or stretching)"
+        },
+        "Day10": {
+            "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
+            "weightlifting": [
+                "Deadlifts X10",
+                "Pull-ups X10",
+                "Bench press X5",
+                "Barbell rows X5"
+            ],
+            "CoolDown": "10 minutes cool-down (stretching)"
+        },
+        "Day11":{
+             "restDay":" Light recreational activity like cycling or hiking"
+        },
+        "Day12": {
+            "WarmUp": "10 minutes warm-up (jump rope or light jogging)",
+            "bodyweight": [
+                "Push-ups X10",
+                "Dips X10",
+                "Chin-ups X5",
+                "Bodyweight squats X5"
+            ],
+            "dumbbellsWorkout": [
+                "Bicep curls with dumbbells X10",
+                "Tricep extensions with dumbbells X10"
+            ],
+            "CoolDown": "10 minutes cool-down (yoga or stretching)"
+        },
+        "Day13": {
+            "WarmUp": "10 minutes warm-up (jumping jacks or brisk walking)",
+            "legDay": [
+                "Leg press (5 minutes)",
+                "Lat pulldowns (5 minutes)",
+                "Leg curls (5 minutes)",
+                "Incline dumbbell press (5 minutes)",
+                "Cable flyes (5 minutes)"
+            ],
+            "CoolDown": "10 minutes cool-down (stretching)"
+        },
+        "Day14": {
+            "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
+            "CircuitTraining": [
+                "Squats with barbell X10",
+                "Overhead press with dumbbells X10",
+                "Bent-over rows with barbell X10",
+                "Lunges with dumbbells X5"
+            ],
+            "coreExercise": [
+                "Planks (5 minutes)",
+                "Russian twists with medicine ball X10"
+            ],
+            "CoolDown": "5 minutes cool-down (yoga or stretching)"
+        },
+        "Day15": {
+            "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
+            "weightlifting": [
+                "Deadlifts X10",
+                "Pull-ups X10",
+                "Bench press X10",
+                "Barbell rows X10"
+            ],
+            "CoolDown": "10 minutes cool-down (stretching)"
+        },
+        "Day16": {
+            "WarmUp": "10 minutes warm-up (brisk walking or light jogging)",
+            "weightlifting": [
+                "Bench press (5 minutes)",
+                "Barbell rows (5 minutes)",
+                "Squats (5 minutes)",
+                "Shoulder press X10",
+                "Deadlifts X5"
+            ],
+            "CoolDown": "10 minutes cool-down (stretching)"
+        },
+        "Day17": {
+            "WarmUp": "10 minutes warm-up (jump rope or light jogging)",
+            "weightlifting": [
+                "Pull-ups X10",
+                "Dips X5",
+                "Push-ups X10",
+                "Lunges X15"
+            ],
+            "dumbbellsWorkout": [
+                "Bicep curls with dumbbells X10",
+                "Tricep extensions with dumbbells X10"
+            ],
+            "CoolDown": "10 minutes cool-down (yoga or stretching)"
+        },
+        "Day18": {
+            "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
+            "legDay": [
+                "Leg press (2 minutes)",
+                "Lat pulldowns (6 minutes)",
+                "Leg curls (5 minutes)",
+                "Incline dumbbell press (3 minutes)",
+                "Cable flyes (3 minutes)"
+            ],
+            "CoolDown": "10 minutes cool-down (stretching)"
+        },
+        "Day19": {
+            "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
+            "CircuitTraining": [
+                "Squats with barbell (5 minutes)",
+                "Overhead press with dumbbells (5 minutes)",
+                "Bent-over rows with barbell (4 minutes)",
+                "Lunges with dumbbells (3 minutes)"
+            ],
+            "coreExercise": [
+                "Planks (5 minutes)",
+                "Russian twists with medicine ball X10"
+            ],
+            "CoolDown": "5 minutes cool-down (yoga or stretching)"
+        },
+        "Day20": {
+            "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
+            "weightlifting": [
+                "Deadlifts X10",
+                "Pull-ups X10",
+                "Bench press X10",
+                "Barbell rows X10"
+            ],
+            "CoolDown": "10 minutes cool-down (stretching)"
+        },
+        "Day21": {"restDay":" Light recreational activity like swimming or walking"
+    },
+        "Day22": {
+            "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
+            "bodyweight": [
+                "Push-ups X10",
+                "Dips X10",
+                "Chin-ups X5",
+                "Bodyweight squats X15"
+            ],
+            "dumbbellsWorkout": [
+                "Bicep curls with dumbbells",
+                "Tricep extensions with dumbbells"
+            ],
+            "CoolDown": "10 minutes cool-down (yoga or stretching)"
+        },
+        "Day23": {
+            "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
+            "weightlifting": [
+                "Leg press (5 minutes)",
+                "Lat pulldowns (5 minutes)",
+                "Leg curls (5 minutes)",
+                "Incline dumbbell press (5 minutes)",
+                "Cable flyes(5 minutes)"
+            ],
+            "CoolDown": "10 minutes cool-down (stretching)"
+        },
+        "Day24": {
+            "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
+            "CircuitTraining": [
+                "Squats with barbell X10",
+                "Overhead press with dumbbells X10",
+                "Bent-over rows with barbell X10",
+                "Lunges with dumbbells X5"
+            ],
+            "coreExercise": [
+                "Planks (5 minutes)",
+                "Russian twists with medicine ball (5 minutes)"
+            ],
+            "CoolDown": "5 minutes cool-down (yoga or stretching)"
+        },
+        "Day25": {
+            "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
+            "weightlifting": [
+                "Deadlifts X10",
+                "Pull-ups X10",
+                "Bench press X10",
+                "Barbell rows X10"
+            ],
+            "CoolDown": "10 minutes cool-down (stretching)"
+        },
+        "Day26": {
+            "restDay": "Light recreational activity like cycling or hiking"
+        },
+        "Day27": {
+            "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
+         
+            "bodyweight": [
+                "Push-ups X10",
+                "Dips X10",
+                "Chin-ups X10",
+                "Bodyweight squats X10"
+            ],
+            "dumbbellsWorkout": [
+                "Bicep curls with dumbbells",
+                "Tricep extensions with dumbbells"
+            ],
+            "CoolDown": "10 minutes cool-down"
+        },
+        "Day28": {
+            "WarmUp": "10 minutes warm-up (jumping jacks or brisk walking)",
+            "weightlifting": [
+              "Leg press X10",
+              "Lat pulldowns X10",
+              "Leg curls X10",
+              "Incline dumbbell press X10",
+              "Cable flyes X10"
+            ],
+            "CoolDown": "10 minutes cool-down (stretching)"
+          },
+          "Day29": {
+            "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
+            "CircuitTraining": [
+              "Squats with barbell X10",
+              "Overhead press with dumbbells X10",
+              "Bent-over rows with barbell X10",
+              "Lunges with dumbbells X15"
+            ],
+            "coreExercise": [
+              "Planks (5 minutes)",
+              "Russian twists with medicine ball (5 minutes)"
+            ],
+            "CoolDown": "5 minutes cool-down (yoga or stretching)"
+          },
+          "Day30": {
+            "WarmUp": "10 minutes warm-up (brisk walking or light jogging)",
+            "weightlifting": [
+              "Bench press X10",
+              "Squats X10",
+              "Shoulder press X10",
+              "Deadlifts X10"
+            ],
+            "CoolDown": "10 minutes cool-down (stretching)"
+          }
+    }
+}
