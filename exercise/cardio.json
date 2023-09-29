@@ -2,17 +2,17 @@
     "cardio": {
         "Day1": {
             "WarmUp": "10 minutes warm-up (brisk walking or light jogging)",
-            "jogging": "25 minutes of steady-state jogging on the treadmill",
+            "Exercise1": "25 minutes of steady-state jogging on the treadmill",
             "CoolDown": "5 minutes cool-down (walking)"
         },
         "Day2": {
             "WarmUp": "10 minutes warm-up (jumping jacks or jump rope)",
-            "HIIT": "20 minutes of HIIT on the stationary bike (30 seconds high intensity, 30 seconds rest)",
+            "Exercise1": "20 minutes of HIIT on the stationary bike (30 seconds high intensity, 30 seconds rest)",
             "CoolDown": "5 minutes cool-down (stretching)"
         },
         "Day3": {
             "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
-            "moderate": "30 minutes of moderate-intensity cycling on the stationary bike",
+            "Exercise1": "30 minutes of moderate-intensity cycling on the stationary bike",
             "CoolDown": "5 minutes cool-down (yoga or stretching)"
         },
         "Day4": {
@@ -22,7 +22,7 @@
         },
         "Day5": {
             "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
-            "dance": "25 minutes of Zumba or dance-based cardio class",
+            "Exercise1": "25 minutes of Zumba or dance-based cardio class",
             "CoolDown": "5 minutes cool-down (yoga or stretching)"
         },
         "Day6": {
@@ -30,22 +30,22 @@
         },
         "Day7": {
             "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
-            "HIIT": "20 minutes of HIIT on the elliptical (30 seconds high intensity, 30 seconds rest)",
+            "Exercise1": "20 minutes of HIIT on the elliptical (30 seconds high intensity, 30 seconds rest)",
             "CoolDown": "5 minutes cool-down (stretching)"
         },
         "Day8": {
             "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
-            "jogging": "25 minutes of incline walking on the treadmill",
+            "Exercise1": "25 minutes of incline walking on the treadmill",
             "CoolDown": "5 minutes cool-down (walking and stretching)"
         },
         "Day9": {
             "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
-            "cycling": "20 minutes of cycling intervals (30 seconds fast, 30 seconds slow)",
+            "Exercise1": "20 minutes of cycling intervals (30 seconds fast, 30 seconds slow)",
             "CoolDown": "5 minutes cool-down (stretching)"
         },
         "Day10": {
             "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
-            "running": "30 minutes of running intervals (1 minute sprint, 1 minute jog)",
+            "Exercise1": "30 minutes of running intervals (1 minute sprint, 1 minute jog)",
             "CoolDown": "5 minutes cool-down (walking and stretching)"
         },
         "Day11": {
@@ -58,32 +58,32 @@
         },
         "Day13": {
             "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
-            "HIIT": "20 minutes of HIIT on the stair climber (30 seconds fast, 30 seconds rest)",
+            "Exercise1": "20 minutes of HIIT on the stair climber (30 seconds fast, 30 seconds rest)",
             "CoolDown": "5 minutes cool-down (yoga or stretching)"
         },
         "Day14": {
             "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
-            "moderate": "30 minutes of moderate-intensity cycling on the stationary bike",
+            "Exercise1": "30 minutes of moderate-intensity cycling on the stationary bike",
             "CoolDown": "5 minutes cool-down (stretching)"
         },
         "Day15": {
             "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
-            "jogging": "25 minutes of steady-state jogging on the treadmill",
+            "Exercise1": "25 minutes of steady-state jogging on the treadmill",
             "CoolDown": "5 minutes cool-down (walking and stretching)"
         },
         "Day16": {
             "WarmUp": "10 minutes warm-up (brisk walking or light jogging)",
-            "jogging": "25 minutes of steady-state jogging on the treadmill",
+            "Exercise1": "25 minutes of steady-state jogging on the treadmill",
             "CoolDown": "5 minutes cool-down (walking)"
         },
         "Day17": {
             "WarmUp": "10 minutes warm-up (jumping jacks or jump rope)",
-            "HIIT": "20 minutes of HIIT on the stationary bike (30 seconds high intensity, 30 seconds rest)",
+            "Exercise1": "20 minutes of HIIT on the stationary bike (30 seconds high intensity, 30 seconds rest)",
             "CoolDown": "5 minutes cool-down (stretching)"
         },
         "Day18": {
             "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
-            "Exercise3": "30 minutes of moderate-intensity cycling on the stationary bike",
+            "Exercise1": "30 minutes of moderate-intensity cycling on the stationary bike",
             "CoolDown": "5 minutes cool-down (yoga or stretching)"
         },
         "Day19": {
@@ -93,7 +93,7 @@
         },
         "Day20": {
             "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
-            "dance": "25 minutes of Zumba or dance-based cardio class",
+            "Exercise1": "25 minutes of Zumba or dance-based cardio class",
             "CoolDown": "5 minutes cool-down (yoga or stretching)"
         },
         "Day21": {
@@ -101,22 +101,22 @@
         },
         "Day22": {
             "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
-            "HIIT": "20 minutes of HIIT on the elliptical (30 seconds high intensity, 30 seconds rest)",
+            "Exercise1": "20 minutes of HIIT on the elliptical (30 seconds high intensity, 30 seconds rest)",
             "CoolDown": "5 minutes cool-down (stretching)"
         },
         "Day23": {
             "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
-            "walking": "25 minutes of incline walking on the treadmill",
+            "Exercise1": "25 minutes of incline walking on the treadmill",
             "CoolDown": "5 minutes cool-down (walking and stretching)"
         },
         "Day24": {
             "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
-            "cycling": "20 minutes of cycling intervals (30 seconds fast, 30 seconds slow)",
+            "Exercise1": "20 minutes of cycling intervals (30 seconds fast, 30 seconds slow)",
             "CoolDown": "5 minutes cool-down (stretching)"
         },
         "Day25": {
             "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
-            "running": "30 minutes of running intervals (1 minute sprint, 1 minute jog)",
+            "Exercise1": "30 minutes of running intervals (1 minute sprint, 1 minute jog)",
             "CoolDown": "5 minutes cool-down (walking and stretching)"
         },
         "Day26": {
@@ -124,22 +124,22 @@
         },
         "Day27": {
             "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
-            "machine": "25 minutes of rowing machine workout",
+            "Exercise1": "25 minutes of rowing machine workout",
             "CoolDown": "5 minutes cool-down (stretching)"
         },
         "Day28": {
             "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
-            "HIIT": "20 minutes of HIIT on the stair climber (30 seconds fast, 30 seconds rest)",
+            "Exercise1": "20 minutes of HIIT on the stair climber (30 seconds fast, 30 seconds rest)",
             "CoolDown": "5 minutes cool-down (yoga or stretching)"
         },
         "Day29": {
             "WarmUp": "10 minutes warm-up (jumping jacks or brisk walking)",
-            "cycling": "30 minutes of moderate-intensity cycling on the stationary bike",
+            "Exercise1": "30 minutes of moderate-intensity cycling on the stationary bike",
             "CoolDown": "5 minutes cool-down (stretching)"
         },
         "Day30": {
             "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
-            "jogging": "25 minutes of steady-state jogging on the treadmill",
+            "Exercise1": "25 minutes of steady-state jogging on the treadmill",
             "CoolDown": "5 minutes cool-down (walking and stretching)"
         }
     }
