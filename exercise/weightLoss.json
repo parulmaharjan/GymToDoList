@@ -4,25 +4,24 @@
             "WarmUp": [
                 "10 minutes jumping jacks or brisk walking"
             ],
-            "CircuitTraining": [
+            "Exercise1": [
                 "Push-ups",
                 "Squats",
                 "Bent-over rows with dumbbells",
                 "Lunges",
-                "Tricep dips"
+                "Tricep dips",
+                "10 minutes stretching"
             ],
             "CoolDown": [
-                "10 minutes stretching"
+                "5 minutes stretching"
             ]
         },
         "Day2": {
             "WarmUp": [
                 "10 minutes jump rope or light jogging"
             ],
-            "HIIT": [
-                "20 minutes on the stationary bike (30 seconds high intensity, 30 seconds rest)"
-            ],
-            "CoreExercises": [
+            "Exercise1": [
+                "20 minutes on the stationary bike (30 seconds high intensity, 30 seconds rest)",
                 "Planks",
                 "Crunches"
             ],
@@ -34,8 +33,9 @@
             "WarmUp": [
                 "10 minutes jumping jacks or brisk walking"
             ],
-            "Cycling": [
-                "30 minutes on the stationary bike"
+            "Exercise1": [
+                "30 minutes on the stationary bike",
+                "Step-ups with dumbbells"
             ],
             "CoolDown": [
                 "10 minutes stretching"
@@ -45,13 +45,11 @@
             "WarmUp": [
                 "10 minutes jump rope or light jogging"
             ],
-            "Walking": [
-                "25 minutes incline walking on the treadmill"
-            ],
-            "BodyweightExercises": [
-                "Push-ups",
-                "Squats",
-                "Lunges"
+            "Exercise1": [
+                "25 minutes incline walking on the treadmill",
+                "Push-ups X10",
+                "Squats X30",
+                "Lunges X20"
             ],
             "CoolDown": [
                 "5 minutes yoga or stretching"
@@ -61,7 +59,7 @@
             "WarmUp": [
                 "10 minutes jumping jacks or brisk walking"
             ],
-            "CardioClass": [
+            "Exercise1": [
                 "30 minutes of Zumba or dance-based cardio class"
             ],
             "CoolDown": [
@@ -75,10 +73,8 @@
             "WarmUp": [
                 "10 minutes jumping jacks or light jogging"
             ],
-            "HIIT": [
-                "20 minutes on the elliptical (30 seconds high intensity, 30 seconds rest)"
-            ],
-            "CoreExercises": [
+            "Exercise1": [
+                "20 minutes on the elliptical (30 seconds high intensity, 30 seconds rest)",
                 "Bicycle crunches",
                 "Leg raises"
             ],
@@ -90,8 +86,10 @@
             "WarmUp": [
                 "10 minutes jump rope or brisk walking"
             ],
-            "Cycling": [
-                "30 minutes on the stationary bike"
+            "Exercise1": [
+                "30 minutes on the stationary bike",
+                "Planks X10",
+                "Squats X30"
             ],
             "CoolDown": [
                 "10 minutes yoga or stretching"
@@ -101,7 +99,7 @@
             "WarmUp": [
                 "10 minutes jumping jacks or light jogging"
             ],
-            "CircuitTraining": [
+            "Exercise1": [
                 "Bench press",
                 "Step-ups with dumbbells",
                 "Bicep curls with dumbbells",
@@ -116,10 +114,8 @@
             "WarmUp": [
                 "10 minutes jump rope or brisk walking"
             ],
-            "HIIT": [
-                "20 minutes on the rowing machine (30 seconds high intensity, 30 seconds rest)"
-            ],
-            "CoreExercises": [
+            "Exercise1": [
+                "20 minutes on the rowing machine (30 seconds high intensity, 30 seconds rest)",
                 "Planks",
                 "Leg raises"
             ],
@@ -134,8 +130,9 @@
             "WarmUp": [
                 "10 minutes jumping jacks or light jogging"
             ],
-            "Cycling": [
-                "30 minutes on the stationary bike"
+            "Exercise1": [
+                "30 minutes on the stationary bike",
+                "20 minutes on the elliptical (30 seconds high intensity, 30 seconds rest)"
             ],
             "CoolDown": [
                 "10 minutes stretching"
@@ -145,10 +142,8 @@
             "WarmUp": [
                 "10 minutes jumping jacks or brisk walking"
             ],
-            "Walking": [
-                "25 minutes incline walking on the treadmill"
-            ],
-            "BodyweightExercises": [
+            "Exercise1": [
+                "25 minutes incline walking on the treadmill",
                 "Push-ups",
                 "Squats",
                 "Lunges"
@@ -161,8 +156,9 @@
             "WarmUp": [
                 "10 minutes jumping jacks or brisk walking"
             ],
-            "CardioClass": [
-                "30 minutes of Zumba or dance-based cardio class"
+            "Exercise1": [
+                "30 minutes of Zumba or dance-based cardio class",
+                "20 minutes on the elliptical (30 seconds high intensity, 30 seconds rest)"
             ],
             "CoolDown": [
                 "10 minutes stretching"
@@ -172,10 +168,8 @@
             "WarmUp": [
                 "10 minutes jumping jacks or light jogging"
             ],
-            "HIIT": [
-                "20 minutes on the elliptical (30 seconds high intensity, 30 seconds rest)"
-            ],
-            "CoreExercises": [
+            "Exercise1": [
+                "20 minutes on the elliptical (30 seconds high intensity, 30 seconds rest)",
                 "Bicycle crunches",
                 "Leg raises"
             ],
@@ -185,7 +179,7 @@
         },
         "Day16": {
             "WarmUp": "10 minutes warm-up (jumping jacks or brisk walking)",
-            "CircuitTraining": [
+            "Exercise1": [
                 "Bench press",
                 "Step-ups with dumbbells",
                 "Bicep curls with dumbbells",
@@ -196,24 +190,36 @@
         },
         "Day17": {
             "WarmUp": "10 minutes warm-up (jump rope or light jogging)",
-            "HIIT": "20 minutes of HIIT on the stationary bike",
-            "CoreExercises": "10 minutes of core exercises (planks, crunches)",
+            "Exercise1": [
+                "20 minutes of HIIT on the stationary bike",
+                "10 minutes of core exercises (planks, crunches)"
+            ],
             "CoolDown": "5 minutes cool-down (stretching)"
         },
         "Day18": {
             "WarmUp": "10 minutes warm-up (jumping jacks or brisk walking)",
-            "moderate": "30 minutes of moderate-intensity cycling on the stationary bike",
+            "Exercise1": [
+                "30 minutes of Zumba or dance-based cardio class",
+                "Bench press",
+                "Bicep curls with dumbbells"
+            ],
             "CoolDown": "10 minutes cool-down (stretching)"
         },
         "Day19": {
             "WarmUp": "10 minutes warm-up (jump rope or light jogging)",
-            "Exercise1": "25 minutes of incline walking on the treadmill",
-            "Exercise2": "10 minutes of bodyweight exercises (push-ups, squats, lunges)",
+            "Exercise1": [
+                "25 minutes of incline walking on the treadmill",
+                "10 minutes of bodyweight exercises (push-ups, squats, lunges)"
+            ],
             "CoolDown": "5 minutes cool-down (yoga or stretching)"
         },
         "Day20": {
             "WarmUp": "10 minutes warm-up (jumping jacks or brisk walking)",
-            "dance": "30 minutes of Zumba or dance-based cardio class",
+            "Exercise1": [
+                "30 minutes of Zumba or dance-based cardio class",
+                "Bench press",
+                "Bicep curls with dumbbells"
+            ],
             "CoolDown": "10 minutes cool-down (stretching)"
         },
         "Day21": {
@@ -221,18 +227,24 @@
         },
         "Day22": {
             "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
-            "HIIT": "20 minutes of HIIT on the elliptical",
-            "CoreExercises": "10 minutes of core exercises (bicycle crunches, leg raises)",
+            "Exercise1": [
+                "20 minutes of HIIT on the elliptical",
+                "10 minutes of core exercises (bicycle crunches, leg raises)"
+            ],
             "CoolDown": "5 minutes cool-down (stretching)"
         },
         "Day23": {
             "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
-            "moderate": "30 minutes of moderate-intensity cycling on the stationary bike",
+            "Exercise1": [
+                "30 minutes of moderate-intensity cycling on the stationary bike",
+                "Bench press",
+                "Step-ups with dumbbells"
+            ],
             "CoolDown": "10 minutes cool-down (yoga or stretching)"
         },
         "Day24": {
             "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
-            "CircuitTraining": [
+            "Exercise1": [
                 "Bench press",
                 "Step-ups with dumbbells",
                 "Bicep curls with dumbbells",
@@ -243,31 +255,44 @@
         },
         "Day25": {
             "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
-            "HIIT": "20 minutes of HIIT on the rowing machine",
-            "CoreExercises": "10 minutes of core exercises (planks, leg raises)",
-            "CoolDown": "5 minutes cool-down (yoga or stretching)"
+            "Exercise1": [
+                "20 minutes of HIIT on the rowing machine",
+                "10 minutes of core exercises (planks, leg raises)"
+            ],
+            "CoolDown": "10 minutes cool-down (stretching)"
         },
         "Day26": "Active rest day: Light recreational activity",
         "Day27": {
             "WarmUp": "10 minutes warm-up (jumping jacks or brisk walking)",
-            "moderate": "30 minutes of moderate-intensity cycling on the stationary bike",
+            "Exercise1": [
+                "30 minutes of moderate-intensity cycling on the stationary bike",
+                "10 minutes of core exercises (planks, leg raises)"
+            ],
             "CoolDown": "10 minutes cool-down (stretching)"
         },
         "Day28": {
             "WarmUp": "10 minutes warm-up (jumping jacks or brisk walking)",
-            "Exercise1": "25 minutes of incline walking on the treadmill",
-            "Exercise2": "10 minutes of bodyweight exercises (push-ups, squats, lunges)",
+            "Exercise1": [
+                "10 minutes of core exercises (planks, leg raises)",
+                "10 minutes of bodyweight exercises (push-ups, squats, lunges)"
+            ],
             "CoolDown": "5 minutes cool-down (yoga or stretching)"
         },
         "Day29": {
             "WarmUp": "10 minutes warm-up (jumping jacks or brisk walking)",
-            "dance": "30 minutes of Zumba or dance-based cardio class",
+            "Exercise1": [
+                "30 minutes of Zumba or dance-based cardio class",
+                "Planks X10",
+                "Squats X30"
+            ],
             "CoolDown": "10 minutes cool-down (stretching)"
         },
         "Day30": {
             "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
-            "HIIT": "20 minutes of HIIT on the elliptical",
-            "CoreExercises": "10 minutes of core exercises (bicycle crunches, leg raises)",
+            "Exercise1": [
+                "20 minutes of HIIT on the elliptical",
+                "10 minutes of core exercises (bicycle crunches, leg raises)"
+            ],
             "CoolDown": "5 minutes cool-down (stretching)"
         }
     }
