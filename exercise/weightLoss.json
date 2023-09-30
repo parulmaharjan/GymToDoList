@@ -1,299 +1,260 @@
 {
     "WeightLoss": {
         "Day1": {
-            "WarmUp": [
-                "10 minutes jumping jacks or brisk walking"
-            ],
             "Exercise1": [
+                "10 minutes jumping jacks or brisk walking",
                 "Push-ups",
                 "Squats",
                 "Bent-over rows with dumbbells",
                 "Lunges",
                 "Tricep dips",
-                "10 minutes stretching"
-            ],
-            "CoolDown": [
                 "5 minutes stretching"
             ]
         },
         "Day2": {
-            "WarmUp": [
-                "10 minutes jump rope or light jogging"
-            ],
             "Exercise1": [
+                "10 minutes jump rope or light jogging",
                 "20 minutes on the stationary bike (30 seconds high intensity, 30 seconds rest)",
                 "Planks",
-                "Crunches"
-            ],
-            "CoolDown": [
+                "Crunches",
                 "5 minutes stretching"
             ]
         },
         "Day3": {
-            "WarmUp": [
-                "10 minutes jumping jacks or brisk walking"
-            ],
             "Exercise1": [
+                "10 minutes jumping jacks or brisk walking",
                 "30 minutes on the stationary bike",
-                "Step-ups with dumbbells"
-            ],
-            "CoolDown": [
+                "Step-ups with dumbbells",
                 "10 minutes stretching"
             ]
         },
         "Day4": {
-            "WarmUp": [
-                "10 minutes jump rope or light jogging"
-            ],
             "Exercise1": [
+                "10 minutes jump rope or light jogging",
                 "25 minutes incline walking on the treadmill",
                 "Push-ups X10",
                 "Squats X30",
-                "Lunges X20"
-            ],
-            "CoolDown": [
+                "Lunges X20",
                 "5 minutes yoga or stretching"
             ]
         },
         "Day5": {
-            "WarmUp": [
-                "10 minutes jumping jacks or brisk walking"
-            ],
             "Exercise1": [
-                "30 minutes of Zumba or dance-based cardio class"
-            ],
-            "CoolDown": [
+                "10 minutes jumping jacks or brisk walking",
+                "30 minutes of Zumba or dance-based cardio class",
                 "10 minutes stretching"
             ]
         },
         "Day6": {
-            "RestDay": "Light recreational activity like swimming and walking in treadmill"
+            "Exercise1": [
+                "Light recreational activity ( swimming ) ",
+                "light jogging"
+            ]
         },
         "Day7": {
-            "WarmUp": [
-                "10 minutes jumping jacks or light jogging"
-            ],
             "Exercise1": [
+                "10 minutes jumping jacks or light jogging",
                 "20 minutes on the elliptical (30 seconds high intensity, 30 seconds rest)",
                 "Bicycle crunches",
-                "Leg raises"
-            ],
-            "CoolDown": [
+                "Leg raises",
                 "5 minutes yoga or stretching"
             ]
         },
         "Day8": {
-            "WarmUp": [
-                "10 minutes jump rope or brisk walking"
-            ],
             "Exercise1": [
+                "10 minutes jump rope or brisk walking",
                 "30 minutes on the stationary bike",
                 "Planks X10",
-                "Squats X30"
-            ],
-            "CoolDown": [
+                "Squats X30",
                 "10 minutes yoga or stretching"
             ]
         },
         "Day9": {
-            "WarmUp": [
-                "10 minutes jumping jacks or light jogging"
-            ],
             "Exercise1": [
+                "10 minutes jumping jacks or light jogging",
                 "Bench press",
                 "Step-ups with dumbbells",
                 "Bicep curls with dumbbells",
                 "Tricep extensions with dumbbells",
-                "Russian twists with a medicine ball"
-            ],
-            "CoolDown": [
+                "Russian twists with a medicine ball",
                 "10 minutes stretching"
             ]
         },
         "Day10": {
-            "WarmUp": [
-                "10 minutes jump rope or brisk walking"
-            ],
             "Exercise1": [
+                "10 minutes jump rope or brisk walking",
                 "20 minutes on the rowing machine (30 seconds high intensity, 30 seconds rest)",
                 "Planks",
-                "Leg raises"
-            ],
-            "CoolDown": [
+                "Leg raises",
                 "5 minutes yoga or stretching"
             ]
         },
         "Day11": {
-            "RestDay": "Light recreational activity like cycling and treadmill walk"
+            "Exercise1": [
+                "Light recreational activity ( swimming ) ",
+                "light jogging"
+            ]
         },
         "Day12": {
-            "WarmUp": [
-                "10 minutes jumping jacks or light jogging"
-            ],
             "Exercise1": [
+                "10 minutes jumping jacks or light jogging",
                 "30 minutes on the stationary bike",
-                "20 minutes on the elliptical (30 seconds high intensity, 30 seconds rest)"
-            ],
-            "CoolDown": [
+                "20 minutes on the elliptical (30 seconds high intensity, 30 seconds rest)",
                 "10 minutes stretching"
             ]
         },
         "Day13": {
-            "WarmUp": [
-                "10 minutes jumping jacks or brisk walking"
-            ],
             "Exercise1": [
+                "10 minutes jumping jacks or brisk walking",
                 "25 minutes incline walking on the treadmill",
                 "Push-ups",
                 "Squats",
-                "Lunges"
-            ],
-            "CoolDown": [
+                "Lunges",
                 "5 minutes yoga or stretching"
             ]
         },
         "Day14": {
-            "WarmUp": [
-                "10 minutes jumping jacks or brisk walking"
-            ],
             "Exercise1": [
+                "10 minutes jumping jacks or brisk walking",
                 "30 minutes of Zumba or dance-based cardio class",
-                "20 minutes on the elliptical (30 seconds high intensity, 30 seconds rest)"
-            ],
-            "CoolDown": [
+                "20 minutes on the elliptical (30 seconds high intensity, 30 seconds rest)",
                 "10 minutes stretching"
             ]
         },
         "Day15": {
-            "WarmUp": [
-                "10 minutes jumping jacks or light jogging"
-            ],
             "Exercise1": [
+                "10 minutes jumping jacks or light jogging",
                 "20 minutes on the elliptical (30 seconds high intensity, 30 seconds rest)",
                 "Bicycle crunches",
-                "Leg raises"
-            ],
-            "CoolDown": [
+                "Leg raises",
                 "5 minutes yoga or stretching"
             ]
         },
         "Day16": {
-            "WarmUp": "10 minutes warm-up (jumping jacks or brisk walking)",
             "Exercise1": [
+                "10 minutes warm-up (jumping jacks or brisk walking)",
                 "Bench press",
                 "Step-ups with dumbbells",
                 "Bicep curls with dumbbells",
                 "Tricep extensions with dumbbells",
-                "Russian twists with a medicine ball"
-            ],
-            "CoolDown": "10 minutes cool-down (stretching)"
+                "Russian twists with a medicine ball",
+                "10 minutes cool-down (stretching)"
+            ]
         },
         "Day17": {
-            "WarmUp": "10 minutes warm-up (jump rope or light jogging)",
             "Exercise1": [
+                "10 minutes warm-up (jump rope or light jogging)",
                 "20 minutes of HIIT on the stationary bike",
-                "10 minutes of core exercises (planks, crunches)"
-            ],
-            "CoolDown": "5 minutes cool-down (stretching)"
+                "10 minutes of core exercises (planks, crunches)",
+                "5 minutes cool-down (stretching)"
+            ]
         },
         "Day18": {
-            "WarmUp": "10 minutes warm-up (jumping jacks or brisk walking)",
             "Exercise1": [
+                "10 minutes warm-up (jumping jacks or brisk walking)",
                 "30 minutes of Zumba or dance-based cardio class",
                 "Bench press",
-                "Bicep curls with dumbbells"
-            ],
-            "CoolDown": "10 minutes cool-down (stretching)"
+                "Bicep curls with dumbbells",
+                "10 minutes cool-down (stretching)"
+            ]
         },
         "Day19": {
-            "WarmUp": "10 minutes warm-up (jump rope or light jogging)",
             "Exercise1": [
+                "10 minutes warm-up (jump rope or light jogging)",
                 "25 minutes of incline walking on the treadmill",
-                "10 minutes of bodyweight exercises (push-ups, squats, lunges)"
-            ],
-            "CoolDown": "5 minutes cool-down (yoga or stretching)"
+                "10 minutes of bodyweight exercises (push-ups, squats, lunges)",
+                "5 minutes cool-down (yoga or stretching)"
+            ]
         },
         "Day20": {
-            "WarmUp": "10 minutes warm-up (jumping jacks or brisk walking)",
             "Exercise1": [
+                "10 minutes warm-up (jumping jacks or brisk walking)",
                 "30 minutes of Zumba or dance-based cardio class",
                 "Bench press",
-                "Bicep curls with dumbbells"
-            ],
-            "CoolDown": "10 minutes cool-down (stretching)"
+                "Bicep curls with dumbbells",
+                "10 minutes cool-down (stretching)"
+            ]
         },
         "Day21": {
-            "RestDay": " Light recreational activity(swimming+light exercises)"
+            "Exercise1": [
+                "Light recreational activity ( swimming ) ",
+                "light jogging"
+            ]
         },
         "Day22": {
-            "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
             "Exercise1": [
+                "10 minutes warm-up (jumping jacks or light jogging)",
                 "20 minutes of HIIT on the elliptical",
-                "10 minutes of core exercises (bicycle crunches, leg raises)"
-            ],
-            "CoolDown": "5 minutes cool-down (stretching)"
+                "10 minutes of core exercises (bicycle crunches, leg raises)",
+                "5 minutes cool-down (stretching)"
+            ]
         },
         "Day23": {
-            "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
             "Exercise1": [
+                "10 minutes warm-up (jump rope or brisk walking)",
                 "30 minutes of moderate-intensity cycling on the stationary bike",
                 "Bench press",
-                "Step-ups with dumbbells"
-            ],
-            "CoolDown": "10 minutes cool-down (yoga or stretching)"
+                "Step-ups with dumbbells",
+                "10 minutes cool-down (yoga or stretching)"
+            ]
         },
         "Day24": {
-            "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
             "Exercise1": [
+                "10 minutes warm-up (jumping jacks or light jogging)",
                 "Bench press",
                 "Step-ups with dumbbells",
                 "Bicep curls with dumbbells",
                 "Tricep extensions with dumbbells",
-                "Russian twists with a medicine ball"
-            ],
-            "CoolDown": "10 minutes cool-down (stretching)"
+                "Russian twists with a medicine ball",
+                "10 minutes cool-down (stretching)"
+            ]
         },
         "Day25": {
-            "WarmUp": "10 minutes warm-up (jump rope or brisk walking)",
             "Exercise1": [
+                "10 minutes warm-up (jump rope or brisk walking)",
                 "20 minutes of HIIT on the rowing machine",
-                "10 minutes of core exercises (planks, leg raises)"
-            ],
-            "CoolDown": "10 minutes cool-down (stretching)"
+                "10 minutes of core exercises (planks, leg raises)",
+                "10 minutes cool-down (stretching)"
+            ]
         },
-        "Day26": "Active rest day: Light recreational activity",
-        "Day27": {
-            "WarmUp": "10 minutes warm-up (jumping jacks or brisk walking)",
+        "Day26": {
             "Exercise1": [
+                "Light recreational activity ( swimming ) ",
+                "light jogging"
+            ]
+        },
+        "Day27": {
+            "Exercise1": [
+                "10 minutes warm-up (jumping jacks or brisk walking)",
                 "30 minutes of moderate-intensity cycling on the stationary bike",
-                "10 minutes of core exercises (planks, leg raises)"
-            ],
-            "CoolDown": "10 minutes cool-down (stretching)"
+                "10 minutes of core exercises (planks, leg raises)",
+                "10 minutes cool-down (stretching)"
+            ]
         },
         "Day28": {
-            "WarmUp": "10 minutes warm-up (jumping jacks or brisk walking)",
             "Exercise1": [
+                "10 minutes warm-up (jumping jacks or brisk walking)",
                 "10 minutes of core exercises (planks, leg raises)",
-                "10 minutes of bodyweight exercises (push-ups, squats, lunges)"
-            ],
-            "CoolDown": "5 minutes cool-down (yoga or stretching)"
+                "10 minutes of bodyweight exercises (push-ups, squats, lunges)",
+                "5 minutes cool-down (yoga or stretching)"
+            ]
         },
         "Day29": {
-            "WarmUp": "10 minutes warm-up (jumping jacks or brisk walking)",
             "Exercise1": [
+                "10 minutes warm-up (jumping jacks or brisk walking)",
                 "30 minutes of Zumba or dance-based cardio class",
                 "Planks X10",
-                "Squats X30"
-            ],
-            "CoolDown": "10 minutes cool-down (stretching)"
+                "Squats X30",
+                "10 minutes cool-down (stretching)"
+            ]
         },
         "Day30": {
-            "WarmUp": "10 minutes warm-up (jumping jacks or light jogging)",
             "Exercise1": [
+                "10 minutes warm-up (jumping jacks or light jogging)",
                 "20 minutes of HIIT on the elliptical",
-                "10 minutes of core exercises (bicycle crunches, leg raises)"
-            ],
-            "CoolDown": "5 minutes cool-down (stretching)"
+                "10 minutes of core exercises (bicycle crunches, leg raises)",
+                "5 minutes cool-down (stretching)"
+            ]
         }
     }
 }
