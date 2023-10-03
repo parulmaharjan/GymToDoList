@@ -1,0 +1,49 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .main-container {
+            background-color: #85c1e9;
+            text-align: center;
+            min-height: 80vh;
+            padding: 20px 50px 50px 50px;
+            width: 80%;
+            border-radius: 15px;
+        }
+
+        .subscription-box-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+ 
+        .subscription-box {
+            flex-basis: calc(50% - 20px);
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            line-height: 150px;
+            font-weight: bold;
+            font-size: 18px;
+            text-transform: uppercase;
+            background-color: #001f3f;
+            color: #fff;
+            border: none; /* Remove border */
+            padding: 0; /* Remove default padding */
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        /* Hover styles */
+        .subscription-box:hover {
+            background-color: #fff;
+            color: #001f3f;
+        }
+    
