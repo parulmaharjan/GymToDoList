@@ -1,24 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Subscription Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Package Selection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .main-container {
+            background-color: #85c1e9;
+            text-align: center;
+            min-height: 80vh;
+            padding: 20px 50px 50px 50px;
+            width: 80%;
+            border-radius: 15px;
+        }
+
+        .subscription-box-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        /* Modify the styling for buttons */
+        .subscription-box {
+            flex-basis: calc(50% - 20px);
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            line-height: 150px;
+            font-weight: bold;
+            font-size: 18px;
+            text-transform: uppercase;
+            background-color: #001f3f;
+            color: #fff;
+            border: none; /* Remove border */
+            padding: 0; /* Remove default padding */
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        /* Hover styles */
+        .subscription-box:hover {
+            background-color: #fff;
+            color: #001f3f;
+        }
+    </style>
 </head>
 <body>
-    <h2>Choose a Package</h2>
-    <form action="subscribed.php" method="post">
-        <label for="package">Select a Package:</label>
-        <select name="package" id="package">
-            <option value="1">Cardio</option>
-            <option value="2">WeightLoss</option>
-            <option value="3">MusclesBuilding</option>
-            <option value="4">General D</option>
-        </select><br><br>
-
-        
-        <input type="submit" value="Subscribe">
-    </form>
+    <div class="main-container">
+        <h2>Select a Package</h2>
+        <div class="subscription-box-container">
+            <!-- Replace <a> with <button> elements -->
+                <button class="subscription-box" id="box1" data-package="A101" onclick="redirectToLoginPage(this)">cardio</button>
+                <button class="subscription-box" id="box2" data-package="A102" onclick="redirectToLoginPage(this)">weightLoss</button>
+                <button class="subscription-box" id="box3" data-package="A103" onclick="redirectToLoginPage(this)">muscleGain</button>
+                <button class="subscription-box" id="box4" data-package="A104" onclick="redirectToLoginPage(this)">genera</button>
+                
+                <!-- Add a hidden div to display messages -->
+                <div id="message" style="display: none;"></div>
+        </div>
+    </div>
+    <script>
+        function redirectToLoginPage(){
+            header("../mainPage/mainPage.html")
+        }
+    </script>
+    <!-- <script>
+        function subscribePackage(button) {
+            // Get the packageId from the data attribute
+            var packageId = button.getAttribute("data-package");
+    
+            // Send the packageId to the server using fetch
+            fetch("subscribed.php", {
+                method: "POST",
+                headers: {
+                    "Content-type": "application/x-www-form-urlencoded"
+                },
+                body: "packageId=" + packageId
+            })
+            .then(response => response.text())
+            .then(data => {
+                // Display the response message
+                document.getElementById("message").innerHTML = data;
+                document.getElementById("message").style.display = "block";
+            })
+            .catch(error => {
+                console.error("Error:", error);
+            });
+        }
+    </script> -->
+    
 </body>
 </html>
-
-
-
