@@ -1,0 +1,45 @@
+.registration-container{
+	margin-left: 50px;
+	
+}
+
+#firstName{
+	
+	margin-right: 120px;
+	padding-right:10px;
+	
+	
+}
+#middleName{
+	margin-right: 100px;
+	padding-right:10px;
+
+}
+#lastName{
+margin-right: 130px;
+	padding-right:40px;
+}
+#email{
+margin-right: 130px;
+padding-right:50px;
+
+}
+#phoneNumber{
+margin-right: 130px;
+	padding-right:40px;
+}
+#userName{
+margin-right: 130px;
+	padding-right:30px;
+}
+#password{
+margin-right: 110px;
+	padding-right:10px;
+}
+#password1{
+	margin-right: 110px;
+	padding-right:10px;
+}
+#register{
+	font-size: 15px;
+} 

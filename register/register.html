@@ -3,48 +3,52 @@
 <head>
     <title>Registration</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
-<body>
-    <div class="registration-container">
-        <h2>Registration</h2>
-        <form action="register.php" method="post" id="registration-form">
-            <div class="form-group">
+<body bgcolor="skyblue">
+    <div class="registration-container"></br></br>
+        <h2><center>Registration</center></h2></br></br></br></br>
+        <form action="register.php" method="post" id="registration-form" onsubmit="validateForm()">
+            
                 <label for="firstName">First Name:</label>
                 <input type="text" id="firstName" name="firstName" required>
-            </div>
-            <div class="form-group">
+            
+            
                 <label for="middleName">Middle Name:</label>
                 <input type="text" id="middleName" name="middleName">
-            </div>
-            <div class="form-group">
+            
+            
                 <label for="lastName">Last Name:</label>
-                <input type="text" id="lastName" name="lastName" required>
-            </div>
-            <div class="form-group">
+                <input type="text" id="lastName" name="lastName" required></br></br></br></br>
+            
+            
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
+            
                 <label for="phoneNumber">Phone Number:</label>
-                <input type="tel" id="phoneNumber" name="phoneNumber" required>
-            </div>
-            <div class="form-group">
+                <input type="text" id="phoneNumber" name="phoneNumber" maxlength="10"required></br></br></br></br>
+            
+            
                 <label for="userName">Username:</label>
                 <input type="text" id="userName" name="userName" required>
-            </div>
-            <div class="form-group">
+            
+            
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" required>
-            </div>
-            <div class="form-group">
+            
+            
                 <label for="password">Confirm Password:</label>
-                <input type="password" id="password" name="confirm_password" required>
-            </div>
-            <div class="form-group">
-                <button type="submit">Register</button>
-            </div>
+                <input type="password" id="password1" name="confirm_password" required></br></br></br></br></br></br>
+            
+            <center><input type="submit" name="Button" value="Register" id="register"onclick="emailValidation()" onclick="validateMobileNumber()">
+                <input type="Reset" name="Button" value="Reset" id="reset"></center>
+                
+
+                <span id="c-result"></span>
+         
+  
         </form>
-    </div>
-    <script src="register.js"></script>
+   
+   
 </body>
 </html>

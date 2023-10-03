@@ -1,8 +1,16 @@
 <?php
-session_start();
+// Include your database configuration file
+require_once("../database/config.php");
+
+// Establish a database connection
+$mysqli = new mysqli(host, user, password, db);
+
+// Check for connection errors
+if ($mysqli->connect_error) {
+    die("Connection failed: " . $mysqli->connect_error);
+}
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Get user registration data
     $firstName = $_POST["firstName"];
     $middleName = $_POST["middleName"];
     $lastName = $_POST["lastName"];
@@ -11,48 +19,101 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $userName = $_POST["userName"];
     $password = $_POST["password"];
 
-    // Replace these with your database credentials
-    require_once("../database/config.php");
+    // Server-side validation
+    $errors = [];
 
-    // Create a MySQLi database connection
-    $conn = new mysqli(host, user, password, db);
-
-    // Check connection
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
+    // Validate first name (only letters allowed)
+    if (!preg_match("/^[a-zA-Z]*$/", $firstName)) {
+        $errors[] = "First name should contain only letters.";
     }
 
-    // Hash the password for security
-    $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+    // Validate middle name (only letters allowed)
+    if (!empty($middleName) && !preg_match("/^[a-zA-Z]*$/", $middleName)) {
+        $errors[] = "Middle name should contain only letters.";
+    }
 
-    // Use prepared statements to prevent SQL injection
-    $sql = "INSERT INTO registereduser (first_name, middle_name, last_name, email, phone_number, username, password)
-            VALUES (?, ?, ?, ?, ?, ?, ?)";
+    // Validate last name (only letters allowed)
+    if (!preg_match("/^[a-zA-Z]*$/", $lastName)) {
+        $errors[] = "Last name should contain only letters.";
+    }
 
-    $stmt = $conn->prepare($sql);
+    // Validate email
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $errors[] = "Invalid email format.";
+    }
 
-    if ($stmt) {
-        // Bind parameters and execute the query
-        $stmt->bind_param("sssssss", $firstName, $middleName, $lastName, $email, $phoneNumber, $userName, $hashedPassword);
+    // Validate phone number (must be exactly 10 digits)
+    if (!preg_match("/^\d{10}$/", $phoneNumber)) {
+        $errors[] = "Phone number should be 10 digits.";
+    }
 
-        if ($stmt->execute()) {
-            // Registration successful
-            $_SESSION["username"] = $userName;
-            header("Location: ../subscription/subscribed.html"); // Redirect to the subscription page
-            exit();
+    // Password length should be at least 6 characters
+    if (strlen($password) < 6) {
+        $errors[] = "Password should be at least 6 characters long.";
+    }
+
+    // Check if username already exists in the database
+    $check_query = "SELECT * FROM registereduser  WHERE userName = ?";
+    $check_stmt = $mysqli->prepare($check_query);
+    $check_stmt->bind_param("s", $userName);
+    $check_stmt->execute();
+    $result = $check_stmt->get_result();
+    
+    if ($result->num_rows > 0) {
+        $errors[] = "Username already exists. Please choose a different username.";
+    }
+
+    $check_stmt->close(); 
+     
+    // Check if email already exists in the database
+$check_query = "SELECT 1 FROM registereduser WHERE email = ?";
+$check_stmt = $mysqli->prepare($check_query);
+$check_stmt->bind_param("s", $email);
+$check_stmt->execute();
+$check_stmt->store_result();
+
+if ($check_stmt->num_rows > 0) {
+    $errors[] = "Email already exists. Please use a different email address.";
+}
+
+$check_stmt->close();
+
+// Check if phone number already exists in the database
+$check_query = "SELECT 1 FROM registereduser WHERE phone_Number = ?";
+$check_stmt = $mysqli->prepare($check_query);
+$check_stmt->bind_param("s", $phoneNumber);
+$check_stmt->execute();
+$check_stmt->store_result();
+
+if ($check_stmt->num_rows > 0) {
+    $errors[] = "Phone number already exists. Please use a different phone number.";
+}
+
+    // If there are validation errors, display them
+    if (!empty($errors)) {
+        foreach ($errors as $error) {
+            echo $error . "<br>";
+        }
+    } else {
+        // Hash the password before storing it in the database
+        $passwordHash = password_hash($password, PASSWORD_BCRYPT);
+
+        // Insert data into the database
+        $insert_query = "INSERT INTO registereduser (first_Name, middle_Name, last_Name, email, phone_Number, username, password) VALUES (?, ?, ?, ?, ?, ?, ?)";
+        $stmt = $mysqli->prepare($insert_query);
+        $stmt->bind_param("sssssss", $firstName, $middleName, $lastName, $email, $phoneNumber, $userName, $passwordHash);
+
+        if ($stmt->execute()) { 
+            // Registration was successful, redirect to subscription.html
+            header("Location: ../subscription/subscribed.html");
+            exit; // Make sure to exit after redirection
         } else {
-            // Registration failed
             echo "Error: " . $stmt->error;
         }
 
-        // Close the statement
         $stmt->close();
-    } else {
-        // Statement preparation failed
-        echo "Error: " . $conn->error;
     }
-
-    // Close the database connection
-    $conn->close();
 }
+
+$mysqli->close();
 ?>
