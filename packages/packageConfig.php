@@ -1,6 +1,6 @@
 //for table package
 
-<!-- <?php
+<?php
 //database credentials
 require_once("../database/config.php");
 
@@ -17,7 +17,7 @@ if ($conn->connect_error) {
 $packageIds = [101, 102, 103, 104];
 $packageNames = ["cardio", "weightLoss", "musclesGain", "general"];
 
-$sql = "INSERT INTO package (packageId, packageName) VALUES (?, ?)";
+$sql = "INSERT INTO packages (packageId, packageName) VALUES (?, ?)";
 $stmt = $conn->prepare($sql);
 
 for ($i = 0; $i < count($packageIds); $i++) {
@@ -29,10 +29,7 @@ for ($i = 0; $i < count($packageIds); $i++) {
         echo "Error: " . $stmt->error . "<br>";
     }
 }
-
-// closing the connection
-//arrow operation used to call methods ->
 $stmt->close();
 $conn->close();
-?> -->
+?> 
 
