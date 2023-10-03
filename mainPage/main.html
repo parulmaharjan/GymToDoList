@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="main.css" />
+  <title>Gym To-Do List</title>
+</head>
+<body>
+  <div class="form-container">
+    <form id="gym-form" action="main.php" method="post">
+      <label for="day-select" style="color:  #6495ed">Select Day:</label>
+      <select id="day-select" style="margin-top: 20px; color: #6495ed">
+        <option value="Day1">Day1</option>
+        <option value="Day2">Day2</option>
+        <option value="Day3">Day3</option>
+        <option value="Day4">Day4</option>
+        <option value="Day5">Day5</option>
+        <option value="Day6">Day6</option>
+        <option value="Day7">Day7</option>
+        <option value="Day8">Day8</option>
+        <option value="Day9">Day9</option>
+        <option value="Day10">Day10</option>
+        <option value="Day11">Day11</option>
+        <option value="Day12">Day12</option>
+        <option value="Day13">Day13</option>
+        <option value="Day14">Day14</option>
+        <option value="Day15">Day15</option>
+        <option value="Day1">Day16</option>
+        <option value="Day2">Day17</option>
+        <option value="Day3">Day18</option>
+        <option value="Day4">Day19</option>
+        <option value="Day5">Day20</option>
+        <option value="Day6">Day21</option>
+        <option value="Day7">Day22</option>
+        <option value="Day8">Day23</option>
+        <option value="Day9">Day24</option>
+        <option value="Day10">Day25</option>
+        <option value="Day11">Day26</option>
+        <option value="Day12">Day27</option>
+        <option value="Day13">Day28</option>
+        <option value="Day14">Day29</option>
+        <option value="Day15">Day30</option>
+      </select>
+      </b>
+      <br />
+
+      <button type="submit" id="generate" style="color: #ffffff; background-color: #6495ed ">
+        <b>Generate To-Do List</b>
+      </button>
+
+    </form>
+  </div>
+
+  <div class="todo-container" id="todo-container">
+      <?php     
+      include("main.php");
+      ?>hi
+      <button>done for today</button>
+  </div>  
+ 
+  <div class="button-container">
+    <button id="logout">Logout</button>
+    <button id="report">Generate report</button>
+  </div>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Package IDs</h2>
+      <ul id="modal-content-list"></ul>
+    </div>
+  </div>
+  
+
+  <script src="main.js" />
+</body>
+</html>
