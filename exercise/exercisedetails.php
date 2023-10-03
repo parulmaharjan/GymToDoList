@@ -2,13 +2,9 @@
 
 $jsonFiles = ['cardio.json', 'weightLoss.json', 'muscleGain.json', 'general.json'];
 
+require_once("../database/config.php") ;
 
-require_once("../database/config.php");
-
-
-$mysqli = new mysqli(host, user, password, db);
-
-
+$mysqli = new mysqli(host, user, password, db);  
 if ($mysqli->connect_error) {
     die("Connection failed: " . $mysqli->connect_error);
 }

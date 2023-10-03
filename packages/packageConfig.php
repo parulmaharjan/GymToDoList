@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 
 //   inserting value to package table 
 $packageIds = [101, 102, 103, 104];
-$packageNames = ["Cardio", "WeightLoss", "MusclesBuilding", "General"];
+$packageNames = ["cardio", "weightLoss", "musclesGain", "general"];
 
 $sql = "INSERT INTO package (packageId, packageName) VALUES (?, ?)";
 $stmt = $conn->prepare($sql);
