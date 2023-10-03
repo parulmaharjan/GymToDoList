@@ -19,7 +19,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt = $conn->prepare($query);
 
     if ($stmt) {
-        // Bind parameter and execute the query
         $stmt->bind_param("s", $username);
         $stmt->execute();
 
@@ -27,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $result = $stmt->get_result();
 
         if ($result->num_rows === 1) {
-            // User exists, fetch the stored password
+            // User exists, fetching the stored password
             $row = $result->fetch_assoc();
             $stored_password = $row["password"];
 
@@ -45,16 +44,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                       
             }
             
-            // Close the statement
+          
             $stmt->close();
         } else {
-            echo "User not found. Please register."; // Moved this outside the if ($result->num_rows === 1) block
+            echo "User not found. Please register.";  
         }
     } else {
         echo "Error: " . $conn->error;
     }
 
-    // Close the database connection
+  
     $conn->close();
 }
 ?>
