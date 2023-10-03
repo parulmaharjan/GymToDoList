@@ -1,6 +1,6 @@
 //for table package
 
-<?php
+<!-- <?php
 //database credentials
 require_once("../database/config.php");
 
@@ -31,5 +31,5 @@ for ($i = 0; $i < count($packageIds); $i++) {
 }
 $stmt->close();
 $conn->close();
-?> 
+?>  -->
 
