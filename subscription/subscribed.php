@@ -21,8 +21,8 @@ $username = $_SESSION['username']; // Make sure the user is logged in and you ha
 
 // Insert data into the database
 $sql = "INSERT INTO usersubscription (packageId, username, subscription_date) VALUES ('$packageId', '$username', NOW())";
-
 if ($conn->query($sql) === TRUE) {
+    session_destroy();
     header("Location: ../login/login.html");
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
