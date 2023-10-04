@@ -1,0 +1,32 @@
+
+[packages (packageId varchar, packageName)
+exerciseDetails (id, packageId, exercise, day)
+userSub (id, username, packageId, sub_date) ] 
+SELECT exercise
+FROM exercisedetails
+NATURAL JOIN packages
+NATURAL JOIN usersubscription
+WHERE day = 'Day1'
+  AND packageName = 'cardio'
+  AND username = 'sita' ;
+
+
+
+
+
+session_start();
+ 
+$selected_username = $_SESSION['selected_username'];
+
+// Use these values in your SQL query
+$sql = "SELECT exercise
+        FROM exerciseDetails
+        NATURAL JOIN packages
+        NATURAL JOIN userSub
+        WHERE day = 'selected_day'
+          AND packageName = 'selected_packageName'
+          AND username = 'selected_username'";
+
+// Execute the query using your database connection
+$result = mysqli_query($connection, $sql);
+
