@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $_SESSION["username"] = $username;
                 echo '<script>
                         setTimeout(function() {
-                            window.location.href = "../mainPage/main.html";
+                            window.location.href = "../mainPage/test.php";
                         }, 2000); // 
                       </script>';
                 exit();
@@ -49,7 +49,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         } else {
             echo "User not found. Please register.";  
         }
-    } else {
+    } 
+    
+    else {
         echo "Error: " . $conn->error;
     }
 
