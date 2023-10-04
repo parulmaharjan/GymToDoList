@@ -1,4 +1,3 @@
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 var pieChartCanvas = document.getElementById("pieChart").getContext("2d");
 
 // Define the data for the pie chart
