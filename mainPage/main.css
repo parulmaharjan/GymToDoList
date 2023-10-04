@@ -79,3 +79,18 @@
   text-decoration: none;
   cursor: pointer;
 }
+/* CSS in main.css */
+.shadow-box {
+  display: none; /* Initially hidden */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  z-index: 999; /* Ensure it's above other elements */
+  text-align: center;
+  padding: 20px;
+  overflow: auto;
+}
+
