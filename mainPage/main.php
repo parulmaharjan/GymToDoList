@@ -1,4 +1,3 @@
-//php code for logbook
 <?php
 session_start();
 $username = $_SESSION['username'];
@@ -14,7 +13,6 @@ if (isset($_POST['username']) && isset($_POST['selected_day']) && isset($_POST['
 
 
     if (isset($_POST['total_exercise'])) {
-        // Count the total checkboxes
         $totalExercise = $_POST['total_exercise'];
     } else {
         $totalExercise = 0;
@@ -38,7 +36,6 @@ if (isset($_POST['username']) && isset($_POST['selected_day']) && isset($_POST['
 $conn->close();
 ?>
 
-//mainfile html code
 <!DOCTYPE html>
 <html>
 
@@ -93,7 +90,6 @@ $conn->close();
     </div>
     <div class="exercise-container" style="display: none;">
         <div class="to-do-list" id="to-do-list">
-           //exercise fetching from db code from here
            <?php
             require_once("../database/config.php");
             $conn = new mysqli(host, user, password, db);
