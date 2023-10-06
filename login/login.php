@@ -34,20 +34,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 // Password is correct, user is authenticated
                 $_SESSION["username"] = $username;
                 echo '<script>
-                        setTimeout(function() {
-                            window.location.href = "../mainPage/main.php";
-                        }, 2000); // 
-                      </script>';
-                exit();
+                alert("Welcome, ' . $username .' we hope you enjoy your fitness journey "  );
+                setTimeout(function() {
+                    window.location.href = "../mainPage/main.php";
+                }, 1000);
+            </script>';
+            exit();
             } else {
-                echo  "Invalid password. Please try again.";
+                echo'<script>';
+                echo 'alert("password incorrect.")';
+                echo'</script>'; 
                       
             }
             
           
             $stmt->close();
         } else {
-            echo "User not found. Please register.";  
+            echo'<script>';
+            echo 'alert("User not found. Please register.")';
+            echo'</script>';  
         }
     } 
     
