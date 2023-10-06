@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $_SESSION["username"] = $username;
                 echo '<script>
                         setTimeout(function() {
-                            window.location.href = "../mainPage/test.php";
+                            window.location.href = "../mainPage/main.php";
                         }, 2000); // 
                       </script>';
                 exit();
