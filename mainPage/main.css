@@ -44,27 +44,7 @@
 
 
 /* Modal styles */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-.modal-content {
-  background-color: #fefefe;
-  margin: 10% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 60%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  text-align: center;
-}
+ 
 
 .close {
   color: #aaa;
@@ -92,5 +72,20 @@
   text-align: center;
   padding: 20px;
   overflow: auto;
-}
-
+  }
+.exercise-container {
+  margin-top: 20px;
+  width: 500px; /* Adjust the width as needed */
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(135, 206, 235, 0.7); /* Sky blue shadow color */
+  text-align: left;
+  color: #6495ed;
+  padding-top: 20px;
+  
+   
+  
+} 
+   
+   
