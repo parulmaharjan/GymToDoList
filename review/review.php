@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $file = fopen($filename, 'a');
 
     // Format the data as a table with semicolons as separators
-    $data = $username . ';' . $reviewText . PHP_EOL;
+    $data = $username . '  ||  ' . $reviewText . PHP_EOL;
 
     // Write the formatted data to the file
     fwrite($file, $data);
