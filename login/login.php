@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 // Password is correct, user is authenticated
                 $_SESSION["username"] = $username;
                 echo '<script>
-                alert("Welcome, ' . $username .' we hope you enjoy your fitness journey "  );
+                alert("Welcome, ' . $username .' we hope you will enjoy your fitness journey "  );
                 setTimeout(function() {
                     window.location.href = "../mainPage/main.php";
                 }, 1000);
