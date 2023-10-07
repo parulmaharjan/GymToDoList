@@ -1,45 +1,64 @@
-.registration-container{
-	margin-left: 50px;
-	
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
 }
 
-#firstName{
-	
-	margin-right: 120px;
-	padding-right:10px;
-	
-	
+.registration-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
-#middleName{
-	margin-right: 100px;
-	padding-right:10px;
 
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: auto;
+    margin-bottom: 20px;
 }
-#lastName{
-margin-right: 130px;
-	padding-right:40px;
-}
-#email{
-margin-right: 130px;
-padding-right:50px;
 
+label {
+    display: block;
+    margin-bottom: 3px;
+    color: #333;
 }
-#phoneNumber{
-margin-right: 130px;
-	padding-right:40px;
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 1px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
 }
-#username{
-margin-right: 130px;
-	padding-right:30px;
+
+input[type="submit"],
+input[type="reset"] {
+    width: 45%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
 }
-#password{
-margin-right: 110px;
-	padding-right:10px;
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #2980b9;
 }
-#password1{
-	margin-right: 110px;
-	padding-right:10px;
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
 }
-#register{
-	font-size: 15px;
-} 
+
+.center-text {
+    text-align: center;
+}
