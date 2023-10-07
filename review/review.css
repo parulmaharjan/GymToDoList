@@ -1,79 +1,61 @@
-/* Style the form container */
-form {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaecee;
+}
+
+.container {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f2f2f2;
-    border: 1px solid #ccc;
+    background-color: #007BFF; /* Sky-blue background color */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333; /* Text color */
 }
 
-/* Style form labels */
+h1 {
+    text-align: center;
+    color: #fff; /* White header text color */
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
 label {
     display: block;
-    font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    color: #fff; /* White label text color */
 }
 
-/* Style text input and textarea */
 input[type="text"],
+input[type="password"],
+input[type="email"],
 textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    font-size: 16px;
+    background-color: #fff; /* White input background color */
 }
 
-/* Style the submit button */
-input[type="submit"] {
-    background-color: #007BFF;
+input[type="submit"],
+input[type="reset"] {
+    width: 45%;
+    padding: 10px;
+    background-color: #3498db;
     color: #fff;
     border: none;
-    padding: 10px 20px;
     border-radius: 3px;
     cursor: pointer;
+    font-size: 18px;
 }
 
-/* Style the submit button on hover */
-input[type="submit"]:hover {
-    background-color: #0056b3;
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #2980b9;
 }
 
-/* Style the form container for the table */
-.table-container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Style the table */
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-/* Style table headers */
-th {
-    background-color: #007BFF;
-    color: #fff;
-    font-weight: bold;
-    padding: 10px;
-    text-align: left;
-}
-
-/* Style table rows */
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-/* Style table data cells */
-td {
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
+.center-text {
+    text-align: center;
 }
