@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         die("Connection failed: " . $conn->connect_error);
     }
 
-    // Query if the user exists
+   //if user exist
     $query = "SELECT * FROM registereduser WHERE username = ?";
 
     $stmt = $conn->prepare($query);
@@ -22,16 +22,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->bind_param("s", $username);
         $stmt->execute();
 
-        // Geting result
+       
         $result = $stmt->get_result();
 
-        if ($result->num_rows === 1) {
-            // User exists, fetching the stored password
+        if ($result->num_rows === 1) {             
             $row = $result->fetch_assoc();
             $stored_password = $row["password"];
 
             if (password_verify($password, $stored_password)) {
-                // Password is correct, user is authenticated
                 $_SESSION["username"] = $username;
                 echo '<script>
                 alert("Welcome, ' . $username .' we hope you will enjoy your fitness journey "  );
@@ -45,8 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 echo 'alert("password incorrect.")';
                 echo'</script>'; 
                       
-            }
-            
+            }            
           
             $stmt->close();
         } else {
@@ -54,13 +51,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo 'alert("User not found. Please register.")';
             echo'</script>';  
         }
-    } 
-    
+    }     
     else {
         echo "Error: " . $conn->error;
-    }
-
-  
+    }  
     $conn->close();
 }
 ?>
