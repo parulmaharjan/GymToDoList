@@ -64,21 +64,21 @@ $conn->close();
                 <option value="Day13">Day13</option>
                 <option value="Day14">Day14</option>
                 <option value="Day15">Day15</option>
-                <option value="Day1">Day16</option>
-                <option value="Day2">Day17</option>
-                <option value="Day3">Day18</option>
-                <option value="Day4">Day19</option>
-                <option value="Day5">Day20</option>
-                <option value="Day6">Day21</option>
-                <option value="Day7">Day22</option>
-                <option value="Day8">Day23</option>
-                <option value="Day9">Day24</option>
-                <option value="Day10">Day25</option>
-                <option value="Day11">Day26</option>
-                <option value="Day12">Day27</option>
-                <option value="Day13">Day28</option>
-                <option value="Day14">Day29</option>
-                <option value="Day15">Day30</option>
+                <option value="Day16">Day16</option>
+                <option value="Day17">Day17</option>
+                <option value="Day18">Day18</option>
+                <option value="Day19">Day19</option>
+                <option value="Day20">Day20</option>
+                <option value="Day21">Day21</option>
+                <option value="Day22">Day22</option>
+                <option value="Day23">Day23</option>
+                <option value="Day24">Day24</option>
+                <option value="Day25">Day25</option>
+                <option value="Day26">Day26</option>
+                <option value="Day27">Day27</option>
+                <option value="Day28">Day28</option>
+                <option value="Day29">Day29</option>
+                <option value="Day30">Day30</option>
             </select>
 
             <button type="button" id="generate" style="color: #ffffff; background-color: #6495ed">
@@ -132,7 +132,7 @@ $conn->close();
             <a href=" ../logout/logout.php" style="text-decoration: none;">Logout</a>
         </button>
         <button id="report">
-            <a href="../reportAndReview/report.html" style="text-decoration: none;">report</a>
+            <a href="../reportAndReview/generateReport.php" style="text-decoration: none;">report</a>
         </button>
     </div>
     <script>
