@@ -1,5 +1,5 @@
 
-/* styles.css */
+ 
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -63,6 +63,6 @@ textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 100%; /* Make the textarea expand to its container's width */
-    resize: vertical; /* Allow vertical resizing */
+    width: 100%; 
+    resize: vertical;  
 }

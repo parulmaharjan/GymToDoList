@@ -90,13 +90,12 @@ if ($check_stmt->num_rows > 0) {
     $errors[] = "Phone number already exists. Please use a different phone number.";
 }
 
-    // If there are validation errors, display them
     if (!empty($errors)) {
         foreach ($errors as $error) {
             echo $error . "<br>";
         }
     } else {
-        // Hash the password before storing it in the database
+        // Hashing the password before storing  
         $passwordHash = password_hash($password, PASSWORD_BCRYPT);
 
         // Insert data into the database
@@ -105,21 +104,17 @@ if ($check_stmt->num_rows > 0) {
         $stmt->bind_param("sssssss", $firstName, $middleName, $lastName, $email, $phoneNumber, $username, $passwordHash);
         $_SESSION['username'] = $username;
 
-// Check if the 'username' session variable is set
 if (isset($_SESSION['username'])) {
-    // Username is stored in the session
     $username = $_SESSION['username'];
     echo "Username is: " . $username;
 } else {
-    // Username is not stored in the session
     echo "Username is not set in the session.";
 }
 
 
         if ($stmt->execute()) { 
-            // Registration was successful, redirect to subscription.html
             header("Location: ../subscription/subscribed.html");
-            exit(); // Make sure to exit after redirection
+            exit();  
         } else {
             echo "Error: " . $stmt->error;
         }

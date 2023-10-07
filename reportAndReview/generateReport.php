@@ -1,15 +1,14 @@
-
 <?php
 session_start();
-require_once("../database/config.php"); 
-  
-    $conn = new mysqli(host, user, password, db);
+require_once("../database/config.php");
 
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    } 
-    
- 
+$conn = new mysqli(host, user, password, db);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+
 if (isset($_POST['ShowReport'])) {
     $username = $_POST['userName'];
     $query = "SELECT day, total, done FROM logbook WHERE username = ?";
@@ -34,35 +33,37 @@ if (isset($_POST['ShowReport'])) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="generateReport.css"> 
+    <link rel="stylesheet" href="generateReport.css">
     <title>your Report</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
+
 <body>
     <div style="width: 90%; margin-top: 200px;">
         <canvas id="lineChart"></canvas>
     </div>
-   </br></br></br> <center>
+    </br></br></br>
+    <center>
         <form method="POST">
             <label>Username :</label>
             <input type="text" name="userName"><br><br><br>
             <input type="Submit" name="ShowReport" value="Show Report">
             <p><a href="../review/review.html">click me</a>to give review on your progress</p>
-        
+
     </center>
     <button id="downloadButton">Download Chart</button>
-    
-     </form>
 
-     <script>
+    </form>
+
+    <script>
         function lineChart(days, totalData, doneData) {
             var data = {
                 labels: days,
-                datasets: [
-                    {
+                datasets: [{
                         label: "Total",
                         data: totalData,
                         borderColor: "rgba(0, 0, 255, 1)", // Blue color
@@ -93,7 +94,7 @@ if (isset($_POST['ShowReport'])) {
                 },
             };
 
-            // Get the canvas element and render the chart
+            // rendering the chart
             var ctx = document.getElementById("lineChart").getContext("2d");
             var lineChart = new Chart(ctx, {
                 type: "line",
@@ -102,31 +103,28 @@ if (isset($_POST['ShowReport'])) {
             });
         }
 
-        // Call the lineChart function with the fetched data
+        // Calling the lineChart function with the fetched data
         <?php
         if (isset($days) && isset($totalData) && isset($doneData)) {
             echo "lineChart(" . json_encode($days) . ", " . json_encode($totalData) . ", " . json_encode($doneData) . ");";
         }
         ?>
 
-        // Add download functionality
-        document.getElementById("downloadButton").addEventListener("click", function () {
-            // Get the chart canvas element
+        //for dowloading
+        document.getElementById("downloadButton").addEventListener("click", function() {
             var canvas = document.getElementById("lineChart");
 
-            // Convert the chart to a data URL
+            // Converting the chart to a data URL
             var chartDataURL = canvas.toDataURL("image/png");
 
-            // Create a download link
             var downloadLink = document.createElement("a");
             downloadLink.href = chartDataURL;
-            downloadLink.download = "chart.png"; // Set the filename for the downloaded image
+            downloadLink.download = "chart.png";
             downloadLink.click();
         });
     </script>
-    </script>
 
-    
+
 </body>
+
 </html>
-    
