@@ -1,5 +1,4 @@
 function validateForm() {
-  // First Name, Middle Name, and Last Name should contain only letters
   const nameRegex = /^[A-Za-z]+$/;
 
   const firstName = document.getElementById("firstName").value;
@@ -11,7 +10,6 @@ function validateForm() {
       return false;
   }
 
-  // Email validation
   const email = document.getElementById("email").value;
   const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
@@ -20,7 +18,6 @@ function validateForm() {
       return false;
   }
 
-  // Phone number should be 10 digits starting with 9
   const phoneNumber = document.getElementById("phoneNumber").value;
   const phoneRegex = /^9\d{9}$/;
 
@@ -29,7 +26,6 @@ function validateForm() {
       return false;
   }
 
-  // Password should be at least 6 characters long
   const password = document.getElementById("password").value;
 
   if (password.length < 6) {
@@ -37,7 +33,6 @@ function validateForm() {
       return false;
   }
 
-  // Password and Confirm Password should match
   const confirmPassword = document.getElementById("password1").value;
 
   if (password !== confirmPassword) {
