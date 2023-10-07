@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 echo '<script>
                 alert("Welcome, ' . $username .' we hope you will enjoy your fitness journey "  );
                 setTimeout(function() {
-                    window.location.href = "../mainPage/main.php";
+                    window.location.href = "../mainPage/mained.php";
                 }, 1000);
             </script>';
             exit();
